@@ -1,0 +1,249 @@
+html {
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
+	background-color: #202020;
+	height: 100%;
+}
+
+p {
+	color: #FFFFFF;
+	font-family: monospace;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+form {
+	color: #FFFFFF;
+	font-family: monospace;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+input {
+	width: 200px;
+	margin: 5px;
+	margin-left: 0px;
+}
+
+h1 {
+	color: #ff9900;
+	font-family: 'VT323', monospace;
+	font-size: 40px;
+}
+
+
+
+
+
+#bghexagon0 {
+	position: absolute;
+	top: 0%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+#bghexagon1 {
+	position: absolute;
+	top: 10%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+} 
+#bghexagon2 {
+	position: absolute;
+	top: 20%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+#bghexagon3 {
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+#bghexagon4 {
+	position: absolute;
+	top: 40%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+#bghexagon5 {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+#bghexagon6 {
+	position: absolute;
+	top: 60%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+#bghexagon7 {
+	position: absolute;
+	top: 70%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+#bghexagon8 {
+	position: absolute;
+	top: 80%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+#bghexagon9 {
+	position: absolute;
+	top: 90%;
+	left: 10px;
+	opacity: 0.1;
+	height: 100px;
+}
+
+
+
+
+
+#buttonhome {
+	position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+#buttonlogin {
+	position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+#buttonabout {
+	position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+#legend {
+	position: absolute;
+    right: 30px;
+    top: 200px;
+    background-color: ;
+    border: solid 2px #00ffff;
+    font-family: monospace;
+    text-align: center;
+    color:#000000;
+}
+
+#info {
+	margin: 40px;
+	margin-left: 150px;
+	margin-right: 180px;
+	max-width: 1000px;
+}
+
+#login {
+	margin: 40px;
+	margin-left: 150px;
+	margin-right: 180px;
+	max-width: 1500px;
+}
+
+#signup {
+	margin: 40px;
+	margin-left: 150px;
+	margin-right: 180px;
+	max-width: 1500px;
+}
+
+#visual {
+	width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#vishex {
+	width: 700px;
+}
+
+
+
+
+
+#blue {
+	background-color: #0000ff;
+	width: 90px;
+	height: 25px;
+	margin: 5px;
+	margin: 5 auto;
+	color:#FFFFFF;
+}
+#green {
+	background-color: #00ff00;
+	width: 90px;
+	height: 25px;
+	margin: 5px;
+	margin: 5 auto;
+}
+#yellow {
+	background-color: #ffff00;
+	width: 90px;
+	height: 25px;
+	margin: 5px;
+	margin: 5 auto;
+}
+#orange {
+	background-color: #ff9900;
+	width: 90px;
+	height: 25px;
+	margin: 5px;
+	margin: 5 auto;
+}
+#pink {
+	background-color: #ff0080;
+	width: 90px;
+	height: 25px;
+	margin: 5px;
+	margin: 5 auto;
+}
+#red {
+	background-color: #ff0000;
+	width: 90px;
+	height: 25px;
+	margin: 5px;
+	margin: 5 auto;
+}
+
+
+
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+	#visual {
+		width: 400px;
+    	margin: 0 auto;
+    	padding-top: 100px;
+	}
+
+	#vishex {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 3000px) and (min-width: 1200px) {
+	#visual {
+		width: 900px;
+    	margin: 0 auto;
+    	padding-top: 100px;
+	}
+
+	#vishex {
+		width: 900px;
+	}
